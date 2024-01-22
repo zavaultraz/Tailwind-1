@@ -606,6 +606,11 @@ video {
   height: 50%;
 }
 
+.size-2\/3 {
+  width: 66.666667%;
+  height: 66.666667%;
+}
+
 .border {
   border-width: 1px;
 }
