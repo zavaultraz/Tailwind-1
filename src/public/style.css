@@ -582,6 +582,34 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-right-0 {
+  right: -0px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
 .float-left {
   float: left;
 }
@@ -592,6 +620,10 @@ video {
 
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-6 {
@@ -649,6 +681,10 @@ video {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 .size-2\/3 {
   width: 66.666667%;
   height: 66.666667%;
@@ -691,8 +727,17 @@ video {
   height: 4p;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
+}
+
+.-translate-x-1 {
+  --tw-translate-x: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .overflow-scroll {
@@ -709,6 +754,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border {
@@ -728,6 +777,16 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-rose-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 63 94 / var(--tw-bg-opacity));
+}
+
+.bg-rose-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 164 175 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
