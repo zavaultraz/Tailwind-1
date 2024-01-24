@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&family=Poppins:wght@100;200;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/public/style.css">
+</head>
+<body>
+    <h1 class="text-center font-bold text-5xl font-Poppins underline">spaning columns</h1>
+<hr class="h-[4px] bg-slate-400 mt-3">
+
+<div class="grid grid-cols-3 gap-4 p-3">
+    <div class="bg-sky-500 py-10 rounded-lg shadow-md">
+        <p class="text-center text-4xl">1</p>
+    </div>
+    <div class="bg-pink-500 py-10 rounded-lg shadow-md">
+        <p class="text-center text-4xl">2</p>
+    </div>
+    <div class="bg-green-500 py-10  rounded-lg shadow-md">
+        <p class="text-center text-4xl">3</p>
+    </div>
+
+    <div class="col-span-2 px-4 py-10 rounded-lg shadow-lg bg-yellow-400">
+        <p class="text-center text-4xl">4 & 5</p>
+    </div>
+    <div class="bg-rose-500 py-10  rounded-lg shadow-md">
+        <p class="text-center text-4xl">6</p>
+    </div>
+    <div class="col-span-3 px-4 py-10 rounded-lg shadow-lg bg-violet-500">
+        <p class="text-center text-4xl">7 & 8 & 9</p>
+    </div>
+</div>
+
+<h1 class="text-center font-bold text-5xl font-Poppins underline">spaning rows</h1>
+<hr class="h-[4px] bg-pink-400 mt-3">
+<div class="grid grid-cols-3 gap-4 mt-3">
+    <div class="bg-blue-700 px-4 py-10 rounded-lg shadow-lg">
+        <p class="text-center text-5xl">1</p>
+    </div>
+    <div class="bg-orange-500 px-4 py-10 rounded-lg shadow-lg">
+        <p class="text-center text-5xl">2</p>
+    </div>
+<div class="row-span-2 px-4 py-10 rounded-lg shadow-lg bg-fuchsia-400">
+    <p class="text-center text-5xl">3 & 6</p>
+</div>
+    <div class="bg-purple-500 px-4 py-10 rounded-lg shadow-lg">
+        <p class="text-center text-5xl">4</p>
+    </div>
+
+    <div class="bg-slate-400 px-4 py-10 rounded-lg shadow-lg">
+        <p class="text-center text-5xl">5</p>
+    </div>
+</div>
+
+</body>
+</html>
