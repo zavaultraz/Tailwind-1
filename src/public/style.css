@@ -683,6 +683,14 @@ video {
   height: 4px;
 }
 
+.h-\[4x\] {
+  height: 4x;
+}
+
+.h-\[4p\] {
+  height: 4p;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -819,6 +827,10 @@ video {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .italic {
