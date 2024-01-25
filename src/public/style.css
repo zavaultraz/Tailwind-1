@@ -1295,4 +1295,12 @@ video {
   .lg\:max-w-lg {
     max-width: 32rem;
   }
+
+  .lg\:max-w-4 {
+    max-width: 1rem;
+  }
+
+  .lg\:max-w-sm {
+    max-width: 24rem;
+  }
 }
