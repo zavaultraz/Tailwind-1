@@ -818,6 +818,10 @@ video {
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .gap-4 {
   gap: 1rem;
 }
