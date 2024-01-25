@@ -1261,6 +1261,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:max-w-sm {
+    max-width: 24rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1274,5 +1278,17 @@ video {
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-lg {
+    max-width: 32rem;
   }
 }
